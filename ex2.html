@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTHINK CSS Assignment 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .highlight {
+            color: red;
+        }
+
+        .box-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .box {
+            width: 200px;
+            height: 100px;
+            background-color: white;
+            box-shadow: 0px 2px 2px #ebedf0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ebedf0;
+            border-radius: 7px;
+        }
+
+        .background-container {
+            display: flex;
+            gap: 15px;
+        }
+
+        .background-color {
+            width: 50px;
+            height: 50px;
+            border-radius: 7px;
+        }
+
+        .form-container {
+            margin-bottom: 20px;
+        }
+
+        .form-container label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        #input1 {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+
+        #input2 {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 10px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .green-box {
+            width: 404px;
+            height: 404px;
+            background-color: #38c45c;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        .purple-box {
+            width: 20rem;
+            height: 10rem;
+            background-color: #6054d4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>UTHINK CSS <a class ="highlight">ASSIGNMENT 2</a></h1>
+    <h2><a class="highlight">Box</a> Assignment</h2>
+    <ul>
+        <li>Flex assignment</li>
+        <li>Shadow assignment</li>
+        <li>Border assignment</li>
+    </ul>
+    <div class="box-container">
+        <a class="box">First Box</a>
+        <a class="box">Second Box</a>
+        <a class="box">Third Box</a>
+    </div>
+
+    <h2>CSS <a class="highlight">Background</a> Assignment</h2>
+    <ul>
+        <li>Flex assignment</li>
+        <li>Background color</li>
+    </ul>
+    <div class="background-container">
+        <a class="background-color" style="background-color: #ff3c34;"></a>
+        <a class="background-color" style="background-color: #ff9404;"></a>
+        <a class="background-color" style="background-color: #ffcc04;"></a>
+        <a class="background-color" style="background-color: #38c45c;"></a>
+        <a class="background-color" style="background-color: #08c4bc;"></a>
+        <a class="background-color" style="background-color: #38b4c4;"></a>
+        <a class="background-color" style="background-color: #38ace4;"></a>
+        <a class="background-color" style="background-color: #087cfc;"></a>
+        <a class="background-color" style="background-color: #6054d4;"></a>
+        <a class="background-color" style="background-color: #ff2d55;"></a>
+
+    </div>
+
+    <h2><a class="highlight">Form</a> Assignment</h2>
+    <ul>
+        <li>CSS with form and input</li>
+    </ul>
+    <div class="form-container">
+        <label for="input1">Label 1</label>
+        <input id="input1" type="text" placeholder="Placeholder">
+        <label for="input2">Label 2</label>
+        <input id="input2" type="text" placeholder="Placeholder">
+    </div>
+    <div class="button-container">
+        <button class="button" style="background-color: #ff3c34;">Button 1</button>
+        <button class="button" style="background-color: #087cfc;">Button 2</button>
+        <button class="button" style="background-color: #38c45c;">Button 3</button>
+    </div>
+    <h2><a class="highlight">Width Height</a> Assignment</h2>
+    <ul>
+        <li>CSS Width and Height</li>
+        <li>CSS Image</li>
+    </ul>
+        <a class="green-box">This Box is 404 × 404 pixel</a>
+        <br>
+        <a class="purple-box">This Box is 20 × 10 rem</a>
+</body>
+</html>
